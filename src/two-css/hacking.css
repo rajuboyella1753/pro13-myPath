@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.main{
+  height: 60vh;
+  width: 100%;
+  margin-top: 2px;
+  position: relative;
+}
+.main img{
+  height: 60vh;
+  width: 100%;
+  background-size: cover;
+  opacity: 1;
+  /* filter: blur(4px); */
+  position: relative;
+  opacity: 0.8;
+}
+.content1{
+  position: absolute;
+  top: 20%;
+  color: #fff;
+  /* background-color: #000; */
+  width: 100%;
+  height: 10vh;
+  transition: all 1s ease;
+}
+.content1:hover{
+  background-color: red;
+  color: #fff;
+  cursor: pointer;
+  /* transform: scale(1.05); */
+  height: 70px;
+}
+.content1 h2{
+  /* margin-left: 43%; */
+  margin-top: 13px;
+  font-size: 48px;
+  color:gainsboro;
+  font-family: "Playfair Display", serif;
+}
+.content1 p{
+  font-family: "Playfair Display", serif;
+  padding: 9px;
+  font-size: 20px;
+}
+.content1 img{
+  margin-top: 15px;
+  height: 200px;
+  width: 400px;
+  border-radius: 8px;
+  opacity: 0.4;
+}
+#types{
+  margin-left: 1%;
+  text-decoration: underline;
+  margin-top: 9px;
+}
+.description{
+  margin-top: 9px;
+  height: 30vh;
+  width: 100%;
+  background-color: wheat;
+  color: #000;
+  /* margin-top: 10px; */
+}
+.description h3{
+  margin-left: 30px;
+  text-decoration: underline;
+}
+.description p{
+  padding: 8px;
+  font-size: 19px;
+}
+/* ? Second container start */
+.container2{
+  height: 310vh;
+  width: 100%;
+  margin-top: 16px;
+  color: #000;
+  /* background-color: green; */
+}
+.container2  #head{
+  padding: 9px;
+  text-decoration:underline;
+  text-align: center;
+}
+.container2  p{
+  padding: 10px;
+}
+.container2  h5{
+  margin-left: 40px;
+}
+.container2  .oneImg{
+  float:right;
+  height: 300px;
+  width: 300px;
+  border-radius: 10px;
+}
+.container2  .twoImg{
+  float:left;
+  height: 300px;
+  width: 300px;
+  border-radius: 10px;
+}
+.container2 ol li i span{
+  color: red;
+  font-weight: 500;
+  padding: 10px;
+  text-decoration: underline;
+  font-size: 19px;
+}
+.container2 ol li{
+  margin-top: 9px;
+}
+.container2 ul li i span{
+  color: green;
+  font-weight: 500;
+  padding: 10px;
+  text-decoration: underline;
+  font-size: 19px;
+  margin-left: 20px;
+}
+.container2 ul li{
+  margin-top: 10px;
+  /* margin-left: 10px; */
+}
+/* ? Second container end */
+/* ! Youtube Resource start */
+.you{
+  padding: 8px;
+  color: #000;
+  font-size: 39px;
+  text-decoration: underline;
+  text-align: center;
+}
+.container3{
+  height: 40vh;
+  width: 100%;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: white;
+}
+.container3 .child1{
+  height: 40vh;
+  width: 50%;
+}
+.container3 .child1 p{
+  padding: 10px;
+  font-size: 21px;
+  font-style: italic;
+}
+.container3 .child1 h5{
+  color: red;
+  text-decoration: underline;
+  font-size: 23px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding: 5px;
+}
+.container3 .child2{
+  height: 40vh;
+  width: 50%;
+}
+.container3 .child2 .html{
+  height: 300px;
+  width: 700px;
+  margin-left: 40px;
+  margin-top: 1px;
+  border-radius: 9px;
+}
+/* ? second video */
+.container4{
+  height: 42vh;
+  margin-top: 10px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: white;
+}
+.container4 .child1{
+  height: 40vh;
+  width: 50%;
+}
+.container4 .child2 p{
+  padding: 10px;
+  font-size: 21px;
+  font-style: italic;
+}
+.container4 .child2 h5{
+  color: green;
+  text-decoration: underline;
+  font-size: 23px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding: 5px;
+}
+.container4 .child2{
+  height: 40vh;
+  width: 50%;
+}
+.container4 .child1 .html{
+  height: 300px;
+  width: 700px;
+  /* margin-left: 40px; */
+  margin-top: 1px;
+  border-radius: 9px;
+}
+.language{
+  text-decoration: underline;
+  background-color: #000;
+  color: #fff;
+  height: 70px;
+  text-align: center;
+}
+/* ? languages */
+.container5{
+  height: 47vh;
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: white;
+  color: #000;
+}
+.container5 .child1{
+  height: 40vh;
+  width: 50%;
+}
+.container5 .child2 p{
+  padding: 10px;
+  font-size: 21px;
+  /* font-style: italic; */
+}
+.container5 .child2 h5{
+  color: red;
+  text-decoration: underline;
+  font-size: 23px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding: 5px;
+}
+.container5 .child2{
+  height: 40vh;
+  width: 50%;
+}
+.container5 .child1 .html{
+  height: 340px;
+  width: 700px;
+  /* margin-left: 40px; */
+  margin-top: 1px;
+  border-radius: 9px;
+}
+/* ? */
+.container6{
+  height: 47vh;
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: white;
+  color: #000;
+}
+.container6 .child1{
+  height: 40vh;
+  width: 50%;
+}
+.container6 .child2 p{
+  padding: 10px;
+  font-size: 21px;
+  /* font-style: italic; */
+}
+.container6 .child2 h5{
+  color: red;
+  text-decoration: underline;
+  font-size: 23px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding: 5px;
+}
+.container6 .child2{
+  height: 40vh;
+  width: 50%;
+}
+.container6 .child1 .html{
+  height: 340px;
+  width: 700px;
+  /* margin-left: 40px; */
+  margin-top: 1px;
+  border-radius: 9px;
+}
+/* ! Youtube Resource end */

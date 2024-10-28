@@ -1,0 +1,145 @@
+.main{
+  height: 55vh;
+  width: 100%;
+  position: relative;
+  /* background-color: red; */
+}
+.main img{
+  height: 55vh;
+  width: 100%;
+  background-size: cover;
+  position: relative;
+  filter: blur(1px);
+  /* opacity: 0.2; */
+}
+.conten{
+  position: absolute;
+  top: 10%;
+  margin-left: 73%;
+  color: #fff;
+}
+.conten1{
+  position: absolute;
+  top: 30%;
+  left: 2%;
+}
+.conten1 button{
+ outline: none;
+ border: none;
+ background-color:transparent;
+ color: #000;
+ margin-left: 20px;
+ padding: 8px;
+ font-size: 21px;
+ border-radius: 10px;
+ transition: all 1s ease;
+}
+.conten1 button:hover{
+  background-color: red;
+  color: #fff;
+  cursor: pointer;
+}
+
+.conten1 button a{
+  color: #fff;
+  text-decoration:underline;
+}
+/* ! container 1 start */
+.container1{
+  height: 43vh;
+  width: 100%;
+  background-color: #000;
+  color: #fff;
+  margin-top: 2px;
+}
+.container1 #intro{
+  text-align: center;
+  text-decoration: underline;
+}
+.container1 b{
+  color: red;
+  font-size: 26px;
+  text-decoration: underline;
+}
+.container1 p{
+  padding: 8px;
+  margin-top: 18px;
+}
+.container1 img{
+  height: 200px;
+  width: 300px;
+  float: right;
+  border-radius: 11px;
+}
+/* ! container 1 end */
+#types{
+  text-align: center;
+}
+.container7{
+  height: 100vh;
+  width: 100%;
+  background-color: #fff;
+  color: #000;
+}
+.container7 h5 p span{
+  color: red;
+  text-decoration: underline;
+}
+.container7 h5{
+  color: #000;
+  padding: 8px;
+}
+.container7 .img1{
+  float: right;
+  height: 200px;
+  width: 500px;
+  border-radius: 10px;
+}
+.container7  #two{
+  margin-top: 30px;
+}
+.container7 .img2{
+  float:right;
+  margin-top: 50px;
+  height: 200px;
+  width: 500px;
+  border-radius: 10px;
+}
+.container7 .img3{
+  float:right;
+  height: 200px;
+  width: 500px;
+  border-radius: 10px;
+}
+.container7 #par{
+  margin-top: 30px;
+}
+/* ? languages start here... */
+.parent1{
+  height: 40vh;
+  width: 100%;
+  display: flex;
+  margin-top: 30px;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.parent1 .child1{
+  height:40vh ;
+  width: 50%;
+}
+.parent1 .child1 h3{
+  padding: 9px;
+}
+.parent1 .child1 p{
+  padding: 8px;
+}
+.parent1 .child2{
+  height:40vh ;
+  width: 50%;
+}
+.parent1 .child2 .html{
+  height: 40vh;
+  width: 90%;
+  margin-left: 30px;
+}
+/* ? languages end here... */

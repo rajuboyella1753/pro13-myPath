@@ -1,0 +1,13 @@
+.footer1{
+  height: 80px;
+  width: 100%;
+  background-color: black;
+  color: #fff;
+  margin-top: 20px;
+}
+.footer1 h2{
+  text-decoration: underline;
+}
+.footer1 b{
+  margin-left: 15%;
+}

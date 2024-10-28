@@ -1,0 +1,142 @@
+.main{
+  height: 60vh;
+  width: 100%;
+  margin-top: 2px;
+  position:relative;
+  background-image: url(../source/black3.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.main img{
+  height: 60vh;
+  width: 100%;
+  background-size: cover;
+  position:relative;
+  opacity: 0.2;
+}
+.main .child{
+  position: absolute;
+  top: 20%;
+  left: 1%;
+}
+.main .child p b{
+  color: #fff;
+  font-size: 19px;
+  font-weight: 600;
+  text-decoration: underline;
+}
+.main .child h1{
+  color: #fff;
+  margin-left: 40%;
+  text-decoration: underline;
+}
+.main .child p{
+  color: #fff;
+  margin-top: 45px;
+  font-size: 19px;
+}
+/* ! description part start */
+#desc{
+  margin-left: 45%;
+  text-decoration: underline;
+}
+.desc{
+  height: 155vh;
+  width: 100%;
+  background-color: whitesmoke;
+  color: #000;
+}
+.desc h2{
+  text-decoration: underline;
+}
+.desc ol li span{
+  font-size: 18px;
+  color: red;
+  text-decoration: underline;
+  font-weight: 700;
+}
+.desc ol li{
+  margin-top: 10px;
+}
+.desc ul li span{
+  font-size: 18px;
+  color: green;
+  font-weight: 700;
+  text-decoration: underline;
+}
+.desc ul li{
+  margin-top: 10px;
+}
+/* ! description part end */
+/* ? path ways start */
+#desc1{
+  margin-left: 35%;
+  margin-top: 10px;
+  color: #000;
+  text-decoration: underline;
+}
+.path{
+  height: 237vh;
+  width: 100%;
+  background-color: black;
+  color: #fff;
+}
+.path h3{
+  text-decoration: underline;
+  margin-top: 14px;
+  color: greenyellow;
+}
+.path p{
+  padding: 8px;
+}
+.path i span{
+  font-weight: 800;
+  color: red;
+}
+.res{
+  text-align: center;
+}
+/* ? path ways end */
+/* ! youtube source start from here... */
+.first{
+  height: 45vh;
+  width: 100%;
+  margin-top: 20px;
+  /* background-color: yellow; */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.first .one{
+  height: 47vh;
+  width: 50%;
+  background-color: aliceblue;
+  color: #000;
+}
+.first .one h4{
+  padding: 5px;
+  text-decoration: underline;
+  opacity: 1;
+}
+.first .one p{
+  padding: 10px;
+  font-size: 21px;
+  opacity: 1;
+}
+.first .two{
+  height: 45vh;
+  width: 50%;
+  /* background-color: red */
+}
+.first .two .html{
+  height: 290px;
+  width: 630px;
+  margin-left: 10px;
+  margin-top: 2px;
+}
+.res{
+  margin-left: 1%;
+  margin-top: 14px;
+  text-decoration: underline;
+}
+/* ! source end from here... */

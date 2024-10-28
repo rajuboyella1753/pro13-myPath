@@ -1,0 +1,155 @@
+@media(min-width:0px) and (max-width:499px){
+  .over .two{
+    height: 90vh;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  .design .plat{
+    font-size: 10px;
+  }
+  #over{
+    margin-top: 160%;
+  }
+  .over{
+    height: 160vh;
+    width: 100%;
+    background-color: whitesmoke;
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 3%;
+  }
+  .desc{
+    height: 28+0vh;
+    width: 100%;
+    background-color: whitesmoke;
+    margin-top: 5px;
+  }
+  .desc h4{
+    font-size: 10px;
+  }
+  .over .one h3{
+    font-size: 12px;
+  }
+  .over .two img{
+    height: 20vh;
+    width: 100%;
+  }
+  .over .two #las{
+    display: none;
+  }
+  #sour1{
+    margin-top: 1%;
+  }
+}
+@media(min-width:500px) and (max-width:1000px){
+  #sour1{
+    margin-left: 29%;
+    /* text-decoration: underline; */
+    margin-top: 20%;
+  }
+  .source1{
+    height: 90vh;
+    width: 100%;
+    background-color: whitesmoke;
+  }
+  .source1 h3{
+    text-decoration: underline;
+  }
+  .first{
+    height: 40vh;
+    width: 100%;
+    background-color: yellow;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .first .one{
+    height: 40vh;
+    width: 50%;
+    background-color: aqua;
+  }
+  .first .two{
+    height: 40vh;
+    width: 50%;
+    background-color: rgb(54, 59, 59);
+  }
+}
+@media(min-width:500px) and (max-width:1400px){
+  .over .two{
+    height: 90vh;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  .design .plat{
+    font-size: 10px;
+  }
+  #over{
+    margin-top: 25%;
+  }
+  .over{
+    height: 160vh;
+    width: 100%;
+    background-color: whitesmoke;
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 3%;
+  }
+  .over .one h3{
+    font-size: 19px;
+  }
+  .over .two img{
+    height: 20vh;
+    width: 100%;
+  }
+  .over .two #las{
+    display: none;
+  }
+  #sour1{
+    margin-top: 1%;
+  }
+}
+@media(min-width:1000px) and (max-width:1400px){
+  .first{
+    height: 40vh;
+    width: 100%;
+    background-color: green;
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+  }
+  .first .one{
+    height: 40vh;
+    width: 100%;
+    background-color: aliceblue;
+    color: #fff;
+  }
+  .first .one h4{
+    padding: 5px;
+    text-decoration: underline;
+  }
+  .first .one p{
+    padding: 5px;
+    font-size: 19px;
+  }
+  .first .two{
+    height: 40vh;
+    width: 100%;
+    background-color:pink;
+  }
+  .first .two .html{
+    height: 140px;
+    width: 450px;
+    /* margin-left: 10px;
+    margin-top: 2px; */
+  }
+}

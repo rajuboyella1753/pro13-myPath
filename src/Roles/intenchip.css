@@ -1,0 +1,125 @@
+/* ? websites portion start from here */
+.learn-websites1{
+  text-align: center;
+  text-decoration: underline;
+  margin-top: 90px;
+}
+.websites{
+  /* margin-top: 2%; */
+  height: 35vh;
+  width: 100%;
+  background-color: #fff;
+  color: #000;
+}
+.websites .listlinks{
+  display: flex;
+}
+.websites  h3,h4{
+  text-decoration: underline;
+  opacity: 0.6;
+}
+.websites .listlinks ul li{
+  list-style: none;
+  color: #fff;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+.websites .listlinks ul li a{
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  /* opacity: 0.4; */
+  transition: all 1s ease;
+}
+.websites .listlinks ul li a:hover{
+  opacity: 1;
+  transform: scale(1.04);
+  text-decoration: underline;
+  cursor: pointer;
+}
+/* ? websites portion end from here */
+/* ! intenships platforms start */
+#platform1{
+  text-align: center;
+  text-decoration: underline;
+}
+.intenships{
+  height: 20vh;
+  width: 100%;
+  background-color: #fff;
+  color: #000;
+}
+.intenships h4{
+  color: #fff;
+  opacity: 0.7;
+}
+.intenships .inten{
+  display: flex;
+  flex-direction:row;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+.intenships ul li{
+  list-style: none;
+  color: #fff;
+  margin-left: 25px;
+  margin-top: 10px;
+}
+.intenships ul li a{
+  text-decoration: none;
+  opacity: 0.4;
+  color: #fff;
+  transition: all 1s ease;
+}
+.intenships ul li a:hover{
+  color: #fff;
+  opacity: 1;
+  cursor: pointer;
+  text-decoration: underline;
+}
+/* ! intenships platforms end */
+/* ? job platforms start */
+#job{
+  text-align: center;
+  text-decoration: underline;
+}
+.jobs{
+  height: 21vh;
+  width: 100%;
+  background-color: black;
+  color: #fff;
+}
+.jobs h3{
+  opacity: 0.4;
+  color: #fff;
+  text-decoration: underline;
+  opacity: 0.4;
+}
+.jobs .lis1{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.jobs .lis1 ul li{
+  list-style: none;
+  color: #fff;
+  margin-left: 40px;
+  margin-top: 10px;
+}
+.jobs .lis1 #fir{
+  margin-left: 19%;
+}
+.jobs .lis1 ul li a{
+  text-decoration: none;
+  opacity: 0.4;
+  color: #fff;
+  transition: all 1s ease;
+}
+.jobs .lis1 ul li a:hover{
+  color: #fff;
+  opacity: 1;
+  cursor: pointer;
+  transform: scale(1.03);
+  text-decoration: underline;
+}

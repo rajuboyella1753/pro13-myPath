@@ -1,0 +1,353 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.lit1{
+  position: absolute;
+}
+.primary{
+  height: 60vh;
+  width: 100%;
+  margin-top: 4%;
+  /* position: absolute; */
+  /* background-color: red; */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.primary .child1{
+  height: 60vh;
+  width: 60%;
+  background-color: #fff;
+  color: #000;
+  /* position: absolute; */
+}
+.primary .child1 h2{
+  margin-top: 15px;
+  margin-left: 25%;
+  font-size: 60px;
+  text-decoration: underline;
+}
+.primary .child1 button{
+  padding: 6px;
+  border:none;
+  background-color: black;
+  color: #fff;
+  outline: none;
+  margin-left: 13px;
+  border-radius: 9px;
+  font-size: 27px;
+  transition: all 1s ease;
+}
+.primary .child1 button:hover{
+  background-color: red;
+  color: #fff;
+  transform: scale(1.04);
+}
+.primary .child1 #but1{
+  margin-left: 30%;
+  margin-top: 10%;
+}
+.primary .child1 button a{
+  color: #fff;
+  text-decoration: none;
+}
+.primary .child1 p{
+  margin-top: 15px;
+  font-size: 21px;
+  margin-left: 10px;
+}
+.primary .child1 p::selection{
+  color: #fff;
+  background-color: #000;
+}
+.primary .child2{
+  height: 60vh;
+  width: 40%;
+  background-color: pink;
+}
+.primary .child2 img{
+  height: 60vh;
+  width: 100%;
+}
+/*? container 1 start */
+.con{
+  height: 70vh;
+  width: 100%;
+  background-color: black;
+  color: #fff;
+  margin-top: 0px;
+  position: absolute;
+}
+.con img{
+  height: 70vh;
+  width: 100%;
+  opacity: 0.3;
+}
+.content{
+  position: absolute;
+  top: 35%;
+  height: 10vh;
+  width: 100%;
+  background-color: #fff;
+  opacity: 0.6;
+  color: #000;
+  transition: all 1s ease;
+  cursor: pointer;
+}
+.content h1{
+  margin-left: 30%;
+  margin-top: 10px;
+  color: red;
+  font-size: 45px;
+  transition: all 1s ease;
+  cursor: pointer;
+}
+.content:hover{
+  color: #fff;
+  background-color: #000;
+}
+.content h1:hover{
+  color: #fff;
+}
+/*? container 1 end */
+/* ! container 2 start */
+.con2{
+  height: 300vh;
+  width: 100%;
+  background-color: #fff;
+  color: #000;
+  position:absolute;
+  margin-top: 32%;
+}
+.con2 h1{
+  margin-left: 20px;
+  margin-top: 14px;
+}
+.con2 .parent{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 100vh;
+  width: 100%;
+  /* background-color: yellow; */
+  color: #000;
+}
+.con2 h1{
+  text-decoration: underline;
+}
+.con2 .parent .child3{
+  height: 100vh;
+  width: 60%;
+  /* background-color: blue; */
+  color: #000;
+}
+.con2 .parent .child3 ol li span b{
+  color: #000;
+  font-size: 24px;
+  text-decoration: underline;
+}
+.con2 .parent .child3 ol li ul li span p{
+  color: green;
+  font-size: 21px;
+  text-decoration: underline;
+}
+.con2 .parent .child3 ol li{
+  font-size: 19px;
+  margin-top: 5px;
+}
+.con2 .parent .child4{
+  height: 100vh;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  /* background-color: brown; */
+  /* color: #fff; */
+}
+.con2 .parent .child4 img{
+  height:24vh;
+  width: 590px;
+}
+#develop{
+  margin-top: 6%;
+}
+/*?  source part */
+.source1{
+  height: 210vh;
+  width: 100%;
+  background-color: whitesmoke;
+}
+.source1 h3{
+  text-decoration: underline;
+}
+.source1 h2{
+  margin-top: 50px;
+  text-decoration: underline;
+  text-align: center;
+}
+.first{
+  height: 45vh;
+  width: 100%;
+  margin-top: 15px;
+  /* background-color: yellow; */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.first .one{
+  height: 45vh;
+  width: 50%;
+  background-color: aliceblue;
+  color: #000;
+}
+.first .one h4{
+  padding: 5px;
+  text-decoration: underline;
+  opacity: 1;
+}
+.first .one p{
+  padding: 10px;
+  font-size: 21px;
+  opacity: 1;
+}
+.first .two{
+  height: 45vh;
+  width: 50%;
+  /* background-color: red */
+}
+.first .two .html{
+  height: 350px;
+  width: 630px;
+  margin-left: 10px;
+  margin-top: 2px;
+}
+/* ? */
+/* ? websites portion start from here */
+.learn-websites{
+  text-align: center;
+  text-decoration: underline;
+  margin-top: 1%;
+}
+.websites{
+  height: 35vh;
+  width: 100%;
+  background-color: black;
+  color: #fff;
+}
+.websites .listlinks{
+  display: flex;
+}
+.websites  h3,h4{
+  text-decoration: underline;
+  opacity: 0.6;
+}
+.websites .listlinks ul li{
+  list-style: none;
+  color: #fff;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+.websites .listlinks ul li a{
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  opacity: 0.4;
+  transition: all 1s ease;
+}
+.websites .listlinks ul li a:hover{
+  opacity: 1;
+  transform: scale(1.04);
+  text-decoration: underline;
+  cursor: pointer;
+}
+/* ? websites portion end from here */
+/* ! intenships platforms start */
+#platform1{
+  text-align: center;
+  text-decoration: underline;
+}
+.intenships{
+  height: 20vh;
+  width: 100%;
+  background-color: black;
+}
+.intenships h4{
+  color: #fff;
+  opacity: 0.7;
+}
+.intenships .inten{
+  display: flex;
+  flex-direction:row;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+.intenships ul li{
+  list-style: none;
+  color: #fff;
+  margin-left: 25px;
+  margin-top: 10px;
+}
+.intenships ul li a{
+  text-decoration: none;
+  opacity: 0.4;
+  color: #fff;
+  transition: all 1s ease;
+}
+.intenships ul li a:hover{
+  color: #fff;
+  opacity: 1;
+  cursor: pointer;
+  text-decoration: underline;
+}
+/* ! intenships platforms end */
+/* ? job platforms start */
+#job{
+  text-align: center;
+  text-decoration: underline;
+}
+.jobs{
+  height: 21vh;
+  width: 100%;
+  background-color: black;
+  color: #fff;
+}
+.jobs h3{
+  opacity: 0.4;
+  color: #fff;
+  text-decoration: underline;
+  opacity: 0.4;
+}
+.jobs .lis1{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.jobs .lis1 ul li{
+  list-style: none;
+  color: #fff;
+  margin-left: 40px;
+  margin-top: 10px;
+}
+.jobs .lis1 #fir{
+  margin-left: 19%;
+}
+.jobs .lis1 ul li a{
+  text-decoration: none;
+  opacity: 0.4;
+  color: #fff;
+  transition: all 1s ease;
+}
+.jobs .lis1 ul li a:hover{
+  color: #fff;
+  opacity: 1;
+  cursor: pointer;
+  transform: scale(1.03);
+  text-decoration: underline;
+}
+
+/* ? job platforms end */
+/* ! container 2 end */
