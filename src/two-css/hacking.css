@@ -451,6 +451,8 @@
     border-radius: 9px;
   }
   
+}
+@media(min-width:800px) and (max-width:1250px){
   
 }
 /* ? media queries end here... */

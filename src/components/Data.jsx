@@ -104,7 +104,7 @@ Next, they perform **Exploratory Data Analysis (EDA)**. This involves analyzing 
 
     {/* Youtube Resource start */}
     <h2 className='res'>Youtube Resource For Data Scientist's</h2>
-    <div className="container">
+    <div className="container-fuild">
     <div className="first">
         <div className="one">
           <center>
