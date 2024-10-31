@@ -24,9 +24,9 @@ function App() {
         <NavLink to='machine' className="webDev">Machine-Learning</NavLink>
         <NavLink to='data' className="webDev">Data Scientist</NavLink>
         <NavLink to='app' className="appDev">App Development</NavLink>
-        <NavLink to='web' className="webDev">Web Development</NavLink>
-        <NavLink to='offer' className="webDev">Learn/Inten/Jobs</NavLink>
-        <NavLink to='login' className="webDev">Login</NavLink>
+        <NavLink to='web' className="webDev" id='web'>Web Development</NavLink>
+        <NavLink to='offer' className="webDev" id='job'>Learn/Inten/Jobs</NavLink>
+        <NavLink to='login' className="webDev" id='login'>Login</NavLink>
         
         {/* <input type="text" name="find" id="find" placeholder='Find your Carrer here...'/>
         <button id='but'>Search Carrer</button> */}

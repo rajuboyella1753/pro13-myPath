@@ -206,3 +206,29 @@
   margin-left: 10%;
 }
 /* ! footer end*/
+/* ? media query started */
+/* ! width between 900 and to 1400 px */
+@media(min-width:0px) and (max-width:1500px){
+  .footer{
+    display: none;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ? media query started */

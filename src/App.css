@@ -110,3 +110,28 @@ nav #but:hover{
   color: #fff;
   cursor: pointer;
 }
+/* ! media query started from here */
+@media(min-width:0px) and (max-width:1000px){
+  main nav #login{
+    display: none;
+  }
+  main nav #job{
+    display: none;
+  }
+
+}
+@media(min-width:0px) and (max-width:880px){
+  main nav #web{
+    display: none;
+  }
+}
+
+
+
+
+
+
+
+
+
+/* ! media query end from here */
