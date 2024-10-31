@@ -6,9 +6,9 @@ import Img3 from '../images/hacking1.avif'
 import Img4 from '../images/hacking2.avif'
 import Img5 from '../images/hacking3.avif'
 import Img6 from '../images/hacking5.avif'
-import Intenship from './intenship'
-import About from './about'
-import Footer from './footer'
+// import Intenship from './intenship'
+// import About from './about'
+// import Footer from './footer'
 export default function ehicalHacking() {
   return (
     <>
@@ -146,7 +146,7 @@ export default function ehicalHacking() {
     </ol>
     </div>
     {/* //! First Container end */}
-    <h2 className='you'>Youtube Resource :</h2>
+    {/* <h2 className='you'>Youtube Resource :</h2> */}
     {/* // ? Youtube Resource start */}
     {/* // ! first video */}
     <div className="container3">

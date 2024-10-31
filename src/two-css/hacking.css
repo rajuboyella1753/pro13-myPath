@@ -24,7 +24,7 @@
   transition: all 1s ease;
 }
 .content1:hover{
-  background-color: red;
+  /* background-color: red; */
   color: #fff;
   cursor: pointer;
   /* transform: scale(1.05); */
@@ -36,6 +36,8 @@
   font-size: 48px;
   color:gainsboro;
   font-family: "Playfair Display", serif;
+  font-weight: 700;
+  color: yellow;
 }
 .content1 p{
   font-family: "Playfair Display", serif;
@@ -58,8 +60,8 @@
   margin-top: 9px;
   height: 30vh;
   width: 100%;
-  background-color: wheat;
-  color: #000;
+  background-color: black;
+  color: #fff;
   /* margin-top: 10px; */
 }
 .description h3{
@@ -67,12 +69,13 @@
   text-decoration: underline;
 }
 .description p{
+  font-style: italic;
   padding: 8px;
   font-size: 19px;
 }
 /* ? Second container start */
 .container2{
-  height: 310vh;
+  height: 300vh;
   width: 100%;
   margin-top: 16px;
   color: #000;
@@ -289,3 +292,165 @@
   border-radius: 9px;
 }
 /* ! Youtube Resource end */
+/* ? media queries start here... */
+@media(min-width:800px) and (max-width:1320px){
+  .container2{
+    height: 370vh;
+    width: 100%;
+    margin-top: 16px;
+    color: #000;
+    /* background-color: green; */
+  }
+  .container3{
+    height: 60vh;
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: white;
+  }
+  .container3 .child1{
+    height: 60vh;
+    width: 50%;
+  }
+  .container3 .child1 p{
+    padding: 10px;
+    font-size: 19px;
+    font-style: italic;
+  }
+  .container3 .child1 h5{
+    color: red;
+    text-decoration: underline;
+    font-size: 19px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 5px;
+  }
+  .container3 .child2{
+    height: 60vh;
+    width: 50%;
+  }
+  .container3 .child2 .html{
+    height: 300px;
+    width: 700px;
+    margin-left: 40px;
+    margin-top: 1px;
+    border-radius: 9px;
+  }
+  /* ? container 4 */
+  .container4{
+    height: 49vh;
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: white;
+  }
+  .container4 .child1{
+    height: 40vh;
+    width: 50%;
+  }
+  .container4 .child2 p{
+    padding: 10px;
+    font-size: 17px;
+    font-style: italic;
+  }
+  .container4 .child2 h5{
+    color: green;
+    text-decoration: underline;
+    font-size: 19px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 5px;
+  }
+  .container4 .child2{
+    height: 49vh;
+    width: 50%;
+  }
+  .container4 .child1 .html{
+    height: 300px;
+    width: 600px;
+    /* margin-left: 40px; */
+    margin-top: 1px;
+    border-radius: 9px;
+  }
+  /* ? container 5  */
+  .container5{
+    height: 49vh;
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: white;
+    color: #000;
+  }
+  .container5 .child1{
+    height: 49vh;
+    width: 50%;
+  }
+  .container5 .child2 p{
+    padding: 10px;
+    font-size: 14px;
+    /* font-style: italic; */
+  }
+  .container5 .child2 h5{
+    color: red;
+    text-decoration: underline;
+    font-size: 19px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 5px;
+  }
+  .container5 .child2{
+    height: 49vh;
+    width: 50%;
+  }
+  .container5 .child1 .html{
+    height: 340px;
+    width: 600px;
+    /* margin-left: 40px; */
+    margin-top: 1px;
+    border-radius: 9px;
+  }
+  /* ? container 6 */
+  .container6{
+    height: 49vh;
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: white;
+    color: #000;
+  }
+  .container6 .child1{
+    height: 49vh;
+    width: 50%;
+  }
+  .container6 .child2 p{
+    padding: 10px;
+    font-size: 14px;
+    /* font-style: italic; */
+  }
+  .container6 .child2 h5{
+    color: red;
+    text-decoration: underline;
+    font-size: 19px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 5px;
+  }
+  .container6 .child2{
+    height: 49vh;
+    width: 50%;
+  }
+  .container6 .child1 .html{
+    height: 340px;
+    width: 600px;
+    /* margin-left: 40px; */
+    margin-top: 1px;
+    border-radius: 9px;
+  }
+  
+  
+}
+/* ? media queries end here... */
